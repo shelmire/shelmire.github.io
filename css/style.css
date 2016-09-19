@@ -1,0 +1,262 @@
+/* Adapted from fullPage.js by Alvaro Trigo */
+/* https://github.com/alvarotrigo/fullPage.js */
+
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+/* Global - fullPage Manip */
+
+	html {
+		font-size: 1em;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	.section {
+		text-align:center;
+	}
+
+	.fp-slidesNav.bottom{
+		bottom: 25px;
+	}
+
+	#infoMenu li a {
+		color: #fff;
+	}
+
+	#home{
+		background: -webkit-gradient(linear, top left, bottom left, from(#fdded1), to(#d2cfdf));
+		background: -webkit-linear-gradient(#fdded1, #d2cfdf);
+		background: linear-gradient(#fdded1,#d2cfdf);
+	}
+
+	#about{
+		background: -webkit-gradient(linear, top left, bottom left, from(#d2cfdf), to(#cfd7e2));
+		background: -webkit-linear-gradient(#d2cfdf, #cfd7e2);
+		background: linear-gradient(#d2cfdf,#6cfd7e217d6b);
+	}
+
+	#portfolio{
+		background: -webkit-gradient(linear, top left, bottom left, from(#cfd7e2), to(#cedde3));
+		background: -webkit-linear-gradient(#cfd7e2, #cedde3);
+		background: linear-gradient(#cfd7e2,#cedde3);
+	}
+
+	#contact{
+		background: -webkit-gradient(linear, top left, bottom left, from(#cedde3), to(#fdded1));
+		background: -webkit-linear-gradient(#cedde3, #fdded1);
+		background: linear-gradient(#cedde3,#fdded1);
+	}
+
+	#menu {
+    position:fixed;
+    background: rgba(115,119,57, 0.1);
+	  transition: top 0.2s;
+		height: 3.5em;
+		text-align: center;
+    top:0;
+    left:0;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin:0;
+  }
+  #menu li {
+    display:inline-block;
+    margin: 10px;
+    color: #000;
+    background:#fff;
+    background: rgba(255,255,255, 0.5);
+    -webkit-border-radius: 5px;
+              border-radius: 5px;
+  }
+  #menu li.active{
+    background:#666;
+    background: rgba(0,0,0, 0.5);
+    color: #fff;
+  }
+  #menu li a{
+		cursor: pointer;
+    text-decoration:none;
+    color: rgba(51,77,74,.9);
+  }
+  #menu a:hover{
+		color: white;
+  }
+  #menu li:hover{
+    background-color: rgba(211,94,0,.6);
+		cursor: pointer;
+  }
+  #menu li a,
+  #menu li.active a{
+    padding: 9px 18px;
+    display:block;
+  }
+  #menu li.active a{
+    color: #fff;
+  }
+
+	#infoMenu li a {
+		color: #fff;
+	}
+
+/* Custom */
+
+	h1 {
+		font-size: 2.5em;
+		font-weight:lighter;
+		font-family: 'Josefin Sans', sans-serif;
+		color: rgba(90, 53, 214, .8);
+		margin:0;
+		padding:0;
+	}
+	h2 {
+		font-size: 1.7em;
+		color: rgba(28,54,98, .5);
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: lighter;
+	}
+	a {
+		text-align: center;
+		color: #751d78;
+		font-size: 1.2em;
+	}
+	a:hover {
+		color: #75781d;
+		cursor: pointer;
+	}
+	p {
+		color: #1c3662;
+		width: 80%;
+		text-align: justify;
+		margin: 0 auto;
+	}
+	#welcome {
+		background-image: url('../assets/mandala.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		margin-top: -5vh;
+		padding-bottom: 65vh;
+	}
+	.description {
+		font-size: 2vh;
+		color: #1c3662;
+		width: 60%;
+		text-align: justify;
+		margin: 0 auto;
+		padding: 5%;
+	}
+	#me {
+		width: 20vh;
+		height: 20%;
+		float: left;
+		opacity: 0.8;
+		padding: 1px;
+	}
+	.divcenter {
+		width: 70%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.about {
+		font-size: 2vh;
+		width: 85%;
+		margin: 0 auto;
+	}
+	#portfolio-img {
+		max-width: 40%;
+		max-height: 30%;
+		margin: -20px -20%;
+		border-radius: 5%;
+		border: 10px solid rgba(255,255,255, 0.5);
+		opacity: 0.8;
+	}
+	.portfolio-txt {
+		padding-top: 150px;
+	}
+	.portfolio-div {
+		width: 90%;
+		height: 80%;
+		margin: 0 auto;
+		padding-bottom: 30px;
+	}
+	#skills {
+		text-align: center;
+	}
+
+/* Responsive Mobile */
+
+	@media only screen and (max-width: 380px) {
+		#welcome {
+			background-image: url('../assets/mandalasm.png');
+			background-repeat: no-repeat;
+			background-position: center;
+			width: 100%;
+			height: auto;
+			margin-top: -5vh;
+			padding-bottom: 65vh;
+		}
+		#menu {
+			position:fixed;
+			background: rgba(115,119,57, 0.1);
+			transition: top 0.2s;
+			height: 8vh;
+			text-align: center;
+			top:0;
+			left:0;
+			z-index: 70;
+			width: 100%;
+			padding: 0;
+			margin:0;
+		}
+		h1 {
+			font-size: 4vh;
+			font-weight:lighter;
+			font-family: 'Josefin Sans', sans-serif;
+			color: rgba(90, 53, 214, .8);
+			margin:0;
+			padding:0;
+		}
+		h2 {
+			font-size: 3vh;
+			color: rgba(28,54,98, .5);
+			font-family: 'Josefin Sans', sans-serif;
+			font-weight: lighter;
+		}
+		p {
+			font-size: 2vh;
+			color: #1c3662;
+			width: 100%;
+			text-align: justify;
+			margin: 0 auto;
+		}
+		.description {
+			font-size: 2vh;
+			color: #1c3662;
+			width: 60%;
+			text-align: justify;
+			margin: 0 auto;
+			padding: 10%;
+		}
+		a {
+			font-size: .6em;
+		}
+		.portfolio-div {
+			margin: 0 auto;
+		}
+		#portfolio-img {
+			max-width: 40%;
+			max-height: 30%;
+			margin: -20px -20%;
+			border-radius: 5%;
+			border: 10px solid rgba(255,255,255, 0.5);
+			opacity: 0.8;
+		}
+		.portfolio-txt {
+			padding-top: 100px;
+		}
+		#skills {
+			text-align: center;
+			/*font-size: .6em;*/
+			padding: -10px;
+		}
+	}
+}
