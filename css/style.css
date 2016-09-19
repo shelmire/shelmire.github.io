@@ -23,27 +23,27 @@
 	}
 
 	#home{
-		background: -webkit-gradient(linear, top left, bottom left, from(#fdded1), to(#d2cfdf));
-		background: -webkit-linear-gradient(#fdded1, #d2cfdf);
-		background: linear-gradient(#fdded1,#d2cfdf);
+		background: -webkit-gradient(linear, top left, bottom left, from(ALICEBLUE), to(SEASHELL));
+		background: -webkit-linear-gradient(ALICEBLUE, SEASHELL);
+		background: linear-gradient(ALICEBLUE,SEASHELL);
 	}
 
 	#about{
-		background: -webkit-gradient(linear, top left, bottom left, from(#d2cfdf), to(#cfd7e2));
-		background: -webkit-linear-gradient(#d2cfdf, #cfd7e2);
-		background: linear-gradient(#d2cfdf,#6cfd7e217d6b);
+		background: -webkit-gradient(linear, top left, bottom left, from(SEASHELL), to(WHITESMOKE));
+		background: -webkit-linear-gradient(SEASHELL, WHITESMOKE);
+		background: linear-gradient(SEASHELL,WHITESMOKE);
 	}
 
 	#portfolio{
-		background: -webkit-gradient(linear, top left, bottom left, from(#cfd7e2), to(#cedde3));
-		background: -webkit-linear-gradient(#cfd7e2, #cedde3);
-		background: linear-gradient(#cfd7e2,#cedde3);
+		background: -webkit-gradient(linear, top left, bottom left, from(WHITESMOKE), to(HONEYDEW));
+		background: -webkit-linear-gradient(WHITESMOKE, HONEYDEW);
+		background: linear-gradient(WHITESMOKE,HONEYDEW);
 	}
 
 	#contact{
-		background: -webkit-gradient(linear, top left, bottom left, from(#cedde3), to(#fdded1));
-		background: -webkit-linear-gradient(#cedde3, #fdded1);
-		background: linear-gradient(#cedde3,#fdded1);
+		background: -webkit-gradient(linear, top left, bottom left, from(HONEYDEW), to(ALICEBLUE));
+		background: -webkit-linear-gradient(HONEYDEW, ALICEBLUE);
+		background: linear-gradient(HONEYDEW,ALICEBLUE);
 	}
 
 	#menu {
@@ -157,7 +157,6 @@
 		text-align: center;
 	}
 	.about {
-		font-size: 2vh;
 		width: 85%;
 		margin: 0 auto;
 	}
