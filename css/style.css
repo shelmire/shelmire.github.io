@@ -196,7 +196,7 @@
 		}
 		#menu {
 			position:fixed;
-			background: rgba(115,119,57, 0.1);
+			/*background: rgba(115,119,57, 0.1);*/
 			transition: top 0.2s;
 			height: 8vh;
 			text-align: center;
@@ -253,9 +253,14 @@
 		.portfolio-txt {
 			padding-top: 100px;
 		}
+		#blurb {
+			text-align: center;
+			font-size: 1.1em;
+			padding: -10px;
+		}
 		#skills {
 			text-align: center;
-			/*font-size: .6em;*/
+			font-size: 1em;
 			padding: -10px;
 		}
 	}
