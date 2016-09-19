@@ -5,7 +5,7 @@
 
 $(document).ready(function() {
   $('#fullpage').fullpage({
-    sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#ccddff'],
+    sectionsColor: ['ALICEBLUE', 'SEASHELL', 'WHITESMOKE', 'HONEYDEW'],
     anchors: ['one', 'two', 'three', 'four'],
     menu: '#menu',
     continuousVertical: false,
