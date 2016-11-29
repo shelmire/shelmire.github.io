@@ -253,12 +253,14 @@
 			padding-top: 100px;
 		}
 		#blurb {
-			text-align: center;
+			line-height: 1.3em;
+      text-align: center;
 			font-size: 1.1em;
 			padding: -10px;
 		}
 		#skills {
-			text-align: center;
+			line-height: 1.3em;
+      text-align: center;
 			font-size: 1em;
 			padding: -10px;
 		}
