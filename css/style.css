@@ -103,7 +103,7 @@
 	h1 {
 		font-size: 2.5em;
 		font-weight:lighter;
-		font-family: 'Josefin Sans', sans-serif;
+		font-family: 'Helvetica', sans-serif;
 		color: rgba(90, 53, 214, .8);
 		margin:0;
 		padding:0;
@@ -111,7 +111,7 @@
 	h2 {
 		font-size: 1.7em;
 		color: rgba(28,54,98, .5);
-		font-family: 'Josefin Sans', sans-serif;
+		font-family: 'Helvetica', sans-serif;
 		font-weight: lighter;
 	}
 	a {
@@ -209,7 +209,7 @@
 		h1 {
 			font-size: 4vh;
 			font-weight:lighter;
-			font-family: 'Josefin Sans', sans-serif;
+			font-family: 'Helvetica', sans-serif;
 			color: rgba(90, 53, 214, .8);
 			margin:0;
 			padding:0;
@@ -217,7 +217,7 @@
 		h2 {
 			font-size: 3vh;
 			color: rgba(28,54,98, .5);
-			font-family: 'Josefin Sans', sans-serif;
+			font-family: 'Helvetica', sans-serif;
 			font-weight: lighter;
 		}
 		p {
