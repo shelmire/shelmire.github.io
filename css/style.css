@@ -143,6 +143,7 @@
 		text-align: justify;
 		margin: 0 auto;
 		padding: 5%;
+    line-height: 1.6em;
 	}
 	#me {
 		width: 20vh;
@@ -177,8 +178,9 @@
 		margin: 0 auto;
 		padding-bottom: 30px;
 	}
-	#skills {
-		text-align: center;
+	#blurb, #skills {
+		text-align: left;
+    line-height: 1.3em;
 	}
 
 /* Responsive Mobile */
@@ -251,7 +253,7 @@
 			opacity: 0.8;
 		}
 		.portfolio-txt {
-			padding-top: 100px;
+			padding-top: 0px;
 		}
 		#blurb {
 			line-height: 1.3em;
