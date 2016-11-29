@@ -103,11 +103,12 @@
 	h1 {
 		font-size: 2.5em;
 		font-weight:lighter;
-		font-family: 'Helvetica', sans-serif;
+		font-family: 'Georgia', serif;
 		color: rgba(90, 53, 214, .8);
 		margin:0;
 		padding:0;
-	}
+    line-height:2em;
+  }
 	h2 {
 		font-size: 1.7em;
 		color: rgba(28,54,98, .5);
@@ -170,7 +171,7 @@
 		opacity: 0.8;
 	}
 	.portfolio-txt {
-		padding-top: 150px;
+		padding-top: 50px;
 	}
 	.portfolio-div {
 		width: 90%;
@@ -232,7 +233,7 @@
 		.description {
 			font-size: 2vh;
 			color: #1c3662;
-			width: 60%;
+			width: 80%;
 			text-align: justify;
 			margin: 0 auto;
 			padding: 10%;
