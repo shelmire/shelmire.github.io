@@ -234,7 +234,8 @@
 			text-align: justify;
 			margin: 0 auto;
 			padding: 10%;
-		}
+		  line-height: 1.6em;
+    }
 		a {
 			font-size: .6em;
 		}
@@ -256,13 +257,11 @@
 			line-height: 1.3em;
       text-align: center;
 			font-size: 1.1em;
-			padding: -10px;
 		}
 		#skills {
 			line-height: 1.3em;
       text-align: center;
 			font-size: 1em;
-			padding: -10px;
 		}
 	}
 }
