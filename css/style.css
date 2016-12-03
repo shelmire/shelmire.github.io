@@ -40,12 +40,10 @@
     margin: 10px;
     color: #000;
     background:#fff;
-    background: rgba(255,255,255, 0.5);
-    -webkit-border-radius: 5px;
-              border-radius: 5px;
+    -webkit-border-radius: 3px;
+              border-radius: 3px;
   }
   #menu li.active{
-    background:#666;
     color: #fff;
   }
   #menu li a{
