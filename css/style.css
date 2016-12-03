@@ -49,13 +49,13 @@
   #menu li a{
     cursor: pointer;
     text-decoration:none;
-    color: #198c19;
+    color: #26a120;
   }
   #menu a:hover{
-    color: #46a346;
+    color: #7cc679;
   }
   #menu li:hover{
-    background-color: #fff;
+    background-color: #000;
     cursor: pointer;
   }
   #menu li a,
@@ -70,14 +70,14 @@
     font-size: 2.5em;
     font-weight:lighter;
     font-family: 'Georgia', serif;
-    color: #7f7fff;
+    color: #6565cc;
     margin:0;
     padding:0;
     line-height:2em;
   }
   h2 {
     font-size: 1.7em;
-    color: #d3d3d3;
+    color: #7e7e7e;
     font-family: 'Helvetica', sans-serif;
     font-weight: lighter;
   }
