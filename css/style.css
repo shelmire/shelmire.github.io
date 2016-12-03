@@ -96,13 +96,6 @@
     text-align: center;
     margin: 0 auto;
   }
-  /*#welcome {
-    background-image: url('../assets/blah');
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: -5vh;
-    padding-bottom: 65vh;
-  }*/
   .img-circle {
     border-radius: 50%;
     max-width: 50%;
@@ -136,17 +129,12 @@
   #portfolio-img {
     max-width: 40%;
     max-height: 30%;
-    margin: -20px -20%;
-    border-radius: 5%;
-    border: 10px solid rgba(255,255,255, 0.5);
-    opacity: 0.8;
   }
   .portfolio-txt {
     padding-top: 50px;
   }
   .portfolio-div {
     width: 90%;
-    height: 80%;
     margin: 0 auto;
     padding-bottom: 30px;
   }
@@ -218,13 +206,9 @@
     #portfolio-img {
       max-width: 40%;
       max-height: 30%;
-      margin: -20px -20%;
-      border-radius: 5%;
-      border: 10px solid rgba(255,255,255, 0.5);
-      opacity: 0.8;
     }
     .portfolio-txt {
-      padding-top: 50px;
+      padding-top: 25px;
     }
     #blurb {
       line-height: 1.3em;

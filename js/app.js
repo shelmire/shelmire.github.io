@@ -9,7 +9,7 @@ $(document).ready(function() {
     menu: '#menu',
     continuousVertical: false,
     responsiveHeight: 600,
-  	slidesNavigation: true,
+    slidesNavigation: true,
     scrollOverflow: true,
     scrollOverflowOptions: {
       scrollbars: true,
