@@ -24,7 +24,7 @@
 
   #menu {
     position:fixed;
-    background: rgba(115,119,57, 0.1);
+    background: #d3d3d3;
     transition: top 0.2s;
     height: 3.5em;
     text-align: center;
@@ -80,24 +80,24 @@
     font-size: 2.5em;
     font-weight:lighter;
     font-family: 'Georgia', serif;
-    color: rgba(90, 53, 214, .8);
+    color: #7f7fff;
     margin:0;
     padding:0;
     line-height:2em;
   }
   h2 {
     font-size: 1.7em;
-    color: rgba(28,54,98, .5);
+    color: #d3d3d3;
     font-family: 'Helvetica', sans-serif;
     font-weight: lighter;
   }
   a {
     text-align: center;
-    color: #751d78;
+    color: #7f7fff;
     font-size: 1.2em;
   }
   a:hover {
-    color: #75781d;
+    color: #9898ff;
     cursor: pointer;
   }
   p {
