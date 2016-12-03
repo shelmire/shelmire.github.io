@@ -6,52 +6,28 @@
 
 /* Global - fullPage Manip */
 
-	html {
-		font-size: 1em;
-		font-family: 'Helvetica', sans-serif;
-	}
-	.section {
-		text-align:center;
-	}
+  html {
+    font-size: 1em;
+    font-family: 'Helvetica', sans-serif;
+  }
+  .section {
+    text-align:center;
+  }
 
-	.fp-slidesNav.bottom{
-		bottom: 25px;
-	}
+  .fp-slidesNav.bottom{
+    bottom: 25px;
+  }
 
-	#infoMenu li a {
-		color: #fff;
-	}
+  #infoMenu li a {
+    color: #fff;
+  }
 
-	#home{
-		background: -webkit-gradient(linear, top left, bottom left, from(ALICEBLUE), to(SEASHELL));
-		background: -webkit-linear-gradient(ALICEBLUE, SEASHELL);
-		background: linear-gradient(ALICEBLUE,SEASHELL);
-	}
-
-	#about{
-		background: -webkit-gradient(linear, top left, bottom left, from(SEASHELL), to(WHITESMOKE));
-		background: -webkit-linear-gradient(SEASHELL, WHITESMOKE);
-		background: linear-gradient(SEASHELL,WHITESMOKE);
-	}
-
-	#portfolio{
-		background: -webkit-gradient(linear, top left, bottom left, from(WHITESMOKE), to(HONEYDEW));
-		background: -webkit-linear-gradient(WHITESMOKE, HONEYDEW);
-		background: linear-gradient(WHITESMOKE,HONEYDEW);
-	}
-
-	#contact{
-		background: -webkit-gradient(linear, top left, bottom left, from(HONEYDEW), to(ALICEBLUE));
-		background: -webkit-linear-gradient(HONEYDEW, ALICEBLUE);
-		background: linear-gradient(HONEYDEW,ALICEBLUE);
-	}
-
-	#menu {
+  #menu {
     position:fixed;
     background: rgba(115,119,57, 0.1);
-	  transition: top 0.2s;
-		height: 3.5em;
-		text-align: center;
+    transition: top 0.2s;
+    height: 3.5em;
+    text-align: center;
     top:0;
     left:0;
     z-index: 70;
@@ -74,16 +50,16 @@
     color: #fff;
   }
   #menu li a{
-		cursor: pointer;
+    cursor: pointer;
     text-decoration:none;
     color: rgba(51,77,74,.9);
   }
   #menu a:hover{
-		color: white;
+    color: white;
   }
   #menu li:hover{
     background-color: rgba(211,94,0,.6);
-		cursor: pointer;
+    cursor: pointer;
   }
   #menu li a,
   #menu li.active a{
@@ -94,177 +70,177 @@
     color: #fff;
   }
 
-	#infoMenu li a {
-		color: #fff;
-	}
+  #infoMenu li a {
+    color: #fff;
+  }
 
 /* Custom */
 
-	h1 {
-		font-size: 2.5em;
-		font-weight:lighter;
-		font-family: 'Georgia', serif;
-		color: rgba(90, 53, 214, .8);
-		margin:0;
-		padding:0;
+  h1 {
+    font-size: 2.5em;
+    font-weight:lighter;
+    font-family: 'Georgia', serif;
+    color: rgba(90, 53, 214, .8);
+    margin:0;
+    padding:0;
     line-height:2em;
   }
-	h2 {
-		font-size: 1.7em;
-		color: rgba(28,54,98, .5);
-		font-family: 'Helvetica', sans-serif;
-		font-weight: lighter;
-	}
-	a {
-		text-align: center;
-		color: #751d78;
-		font-size: 1.2em;
-	}
-	a:hover {
-		color: #75781d;
-		cursor: pointer;
-	}
-	p {
-		color: #1c3662;
-		width: 80%;
-		text-align: center;
-		margin: 0 auto;
-	}
-	#welcome {
-		background-image: url('../assets/blah');
-		background-repeat: no-repeat;
-		background-position: center;
-		margin-top: -5vh;
-		padding-bottom: 65vh;
-	}
-	.description {
-		font-size: 2vh;
-		color: #1c3662;
-		width: 60%;
-		text-align: justify;
-		margin: 0 auto;
-		padding: 5%;
+  h2 {
+    font-size: 1.7em;
+    color: rgba(28,54,98, .5);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: lighter;
+  }
+  a {
+    text-align: center;
+    color: #751d78;
+    font-size: 1.2em;
+  }
+  a:hover {
+    color: #75781d;
+    cursor: pointer;
+  }
+  p {
+    color: #1c3662;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #welcome {
+    background-image: url('../assets/blah');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -5vh;
+    padding-bottom: 65vh;
+  }
+  .description {
+    font-size: 2vh;
+    color: #1c3662;
+    width: 60%;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 5%;
     line-height: 1.6em;
-	}
-	#me {
-		width: 20vh;
-		height: 20%;
-		float: left;
-		opacity: 0.8;
-		padding: 1px;
-	}
-	.divcenter {
-		width: 70%;
-		margin: 0 auto;
-		text-align: center;
-	}
-	.about {
-		width: 85%;
-		margin: 0 auto;
-	}
-	#portfolio-img {
-		max-width: 40%;
-		max-height: 30%;
-		margin: -20px -20%;
-		border-radius: 5%;
-		border: 10px solid rgba(255,255,255, 0.5);
-		opacity: 0.8;
-	}
-	.portfolio-txt {
-		padding-top: 50px;
-	}
-	.portfolio-div {
-		width: 90%;
-		height: 80%;
-		margin: 0 auto;
-		padding-bottom: 30px;
-	}
-	#blurb, #skills {
-		text-align: left;
+  }
+  #me {
+    width: 20vh;
+    height: 20%;
+    float: left;
+    opacity: 0.8;
+    padding: 1px;
+  }
+  .divcenter {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .about {
+    width: 85%;
+    margin: 0 auto;
+  }
+  #portfolio-img {
+    max-width: 40%;
+    max-height: 30%;
+    margin: -20px -20%;
+    border-radius: 5%;
+    border: 10px solid rgba(255,255,255, 0.5);
+    opacity: 0.8;
+  }
+  .portfolio-txt {
+    padding-top: 50px;
+  }
+  .portfolio-div {
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  #blurb, #skills {
+    text-align: left;
     line-height: 1.3em;
-	}
+  }
 
 /* Responsive Mobile */
 
-	@media only screen and (max-width: 380px) {
-		#welcome {
-			background-image: url('../assets/blah');
-			background-repeat: no-repeat;
-			background-position: center;
-			width: 100%;
-			height: auto;
-			margin-top: -5vh;
-			padding-bottom: 65vh;
-		}
-		#menu {
-			position:fixed;
-			/*background: rgba(115,119,57, 0.1);*/
-			transition: top 0.2s;
-			height: 8vh;
-			text-align: center;
-			top:0;
-			left:0;
-			z-index: 70;
-			width: 100%;
-			padding: 0;
-			margin:0;
-		}
-		h1 {
-			font-size: 4vh;
-			font-weight:lighter;
-			font-family: 'Helvetica', sans-serif;
-			color: rgba(90, 53, 214, .8);
-			margin:0;
-			padding:0;
-		}
-		h2 {
-			font-size: 3vh;
-			color: rgba(28,54,98, .5);
-			font-family: 'Helvetica', sans-serif;
-			font-weight: lighter;
-		}
-		p {
-			font-size: 2vh;
-			color: #1c3662;
-			width: 100%;
-			text-align: justify;
-			margin: 0 auto;
-		}
-		.description {
-			font-size: 2vh;
-			color: #1c3662;
-			width: 80%;
-			text-align: justify;
-			margin: 0 auto;
-			padding: 10%;
-		  line-height: 1.6em;
+  @media only screen and (max-width: 380px) {
+    #welcome {
+      background-image: url('../assets/blah');
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: auto;
+      margin-top: -5vh;
+      padding-bottom: 65vh;
     }
-		a {
-			font-size: .6em;
-		}
-		.portfolio-div {
-			margin: 0 auto;
-		}
-		#portfolio-img {
-			max-width: 40%;
-			max-height: 30%;
-			margin: -20px -20%;
-			border-radius: 5%;
-			border: 10px solid rgba(255,255,255, 0.5);
-			opacity: 0.8;
-		}
-		.portfolio-txt {
-			padding-top: 0px;
-		}
-		#blurb {
-			line-height: 1.3em;
+    #menu {
+      position:fixed;
+      /*background: rgba(115,119,57, 0.1);*/
+      transition: top 0.2s;
+      height: 8vh;
       text-align: center;
-			font-size: 1.1em;
-		}
-		#skills {
-			line-height: 1.3em;
+      top:0;
+      left:0;
+      z-index: 70;
+      width: 100%;
+      padding: 0;
+      margin:0;
+    }
+    h1 {
+      font-size: 4vh;
+      font-weight:lighter;
+      font-family: 'Helvetica', sans-serif;
+      color: rgba(90, 53, 214, .8);
+      margin:0;
+      padding:0;
+    }
+    h2 {
+      font-size: 3vh;
+      color: rgba(28,54,98, .5);
+      font-family: 'Helvetica', sans-serif;
+      font-weight: lighter;
+    }
+    p {
+      font-size: 2vh;
+      color: #1c3662;
+      width: 100%;
+      text-align: justify;
+      margin: 0 auto;
+    }
+    .description {
+      font-size: 2vh;
+      color: #1c3662;
+      width: 80%;
+      text-align: justify;
+      margin: 0 auto;
+      padding: 10%;
+      line-height: 1.6em;
+    }
+    a {
+      font-size: .6em;
+    }
+    .portfolio-div {
+      margin: 0 auto;
+    }
+    #portfolio-img {
+      max-width: 40%;
+      max-height: 30%;
+      margin: -20px -20%;
+      border-radius: 5%;
+      border: 10px solid rgba(255,255,255, 0.5);
+      opacity: 0.8;
+    }
+    .portfolio-txt {
+      padding-top: 0px;
+    }
+    #blurb {
+      line-height: 1.3em;
       text-align: center;
-			font-size: 1em;
-		}
-	}
+      font-size: 1.1em;
+    }
+    #skills {
+      line-height: 1.3em;
+      text-align: center;
+      font-size: 1em;
+    }
+  }
 }
