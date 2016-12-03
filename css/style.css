@@ -127,14 +127,14 @@
     margin: 0 auto;
   }
   #portfolio-img {
-    max-width: 40%;
-    max-height: 30%;
+    max-width: 400px;
+    padding: 0px;
   }
   .portfolio-txt {
     padding-top: 50px;
   }
   .portfolio-div {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding-bottom: 30px;
   }
