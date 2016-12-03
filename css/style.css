@@ -70,7 +70,7 @@
     font-size: 2.5em;
     font-weight:lighter;
     font-family: 'Georgia', serif;
-    color: #6565cc;
+    color: #342df0;
     margin:0;
     padding:0;
     line-height:2em;
@@ -83,15 +83,15 @@
   }
   a {
     text-align: center;
-    color: #7f7fff;
+    color: #342df0;
     font-size: 1.2em;
   }
   a:hover {
-    color: #9898ff;
+    color: #706cf4;
     cursor: pointer;
   }
   p {
-    color: #1c3662;
+    color: #000;
     width: 80%;
     text-align: center;
     margin: 0 auto;
