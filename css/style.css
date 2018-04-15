@@ -4,7 +4,7 @@
 
 html {
   font-size: 1em;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Georgia', sans-serif;
   margin: 0;
 }
 
@@ -15,7 +15,7 @@ body {
 #menu {
   position: fixed;
   height: 5%;
-  background: black;
+  background: rgb(33, 33, 33);
   text-align: center;
   width: 100%;
   margin: 0;
@@ -26,7 +26,6 @@ body {
 }
 
 #menu li {
-  color: black;
   background: grey;
   border-radius: 3px;
   display: block;
@@ -50,21 +49,20 @@ body {
   align-items: center;
 }
 
-#menu li:hover{
-  background-color: grey;
-  cursor: pointer;
-}
-
 .section {
   padding-top: 10em;
+  padding-bottom: 10em;
   height: 95%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 h1 {
   font-size: 2.5em;
   font-weight: 500;
-  font-family: 'Arial', sans-serif;
-  color: #0e65f1;
+  font-family: 'Georgia', sans-serif;
+  color: rgb(33, 33, 33);
   margin:0;
   padding:0;
   line-height:2em;
@@ -72,18 +70,17 @@ h1 {
 
 h2 {
   font-size: 1.7em;
-  color: #f26726;
-  font-family: 'Arial', sans-serif;
+  color: #1c3662;
+  font-family: 'Georgia', sans-serif;
   font-weight: lighter;
 }
 
 a {
   text-align: center;
-  color: #26a120;
-  font-size: 1.2em;
+  color: black;
 }
 a:hover {
-  color: #7cc679;
+  color: grey;
   cursor: pointer;
 }
 
@@ -100,116 +97,40 @@ p {
   max-height: 40%;
 }
 
-.description {
-  font-size: 2vh;
+.text {
+  font-size: 1.2em;
   color: #1c3662;
   width: 60%;
   text-align: justify;
   margin: 0 auto;
-  padding: 5%;
+  padding: 1em;
   line-height: 1.6em;
 }
 
-#me {
-  width: 20vh;
-  height: 20%;
-  float: left;
-  opacity: 0.8;
-  padding: 1px;
-}
-.divcenter {
-  width: 70%;
-  margin: 0 auto;
-  text-align: center;
-}
-.about {
-  width: 85%;
-  margin: 0 auto;
-}
 #portfolio-img {
   max-width: 400px;
   padding: 0px;
 }
-.portfolio-txt {
-  padding-top: 50px;
+
+#home {
+  background: #D5D5D5;
 }
-.portfolio-div {
-  width: 100%;
-  margin: 0 auto;
-  padding-bottom: 30px;
+
+#about {
+  background: #6D7993;
 }
-#blurb, #skills {
-  text-align: left;
-  line-height: 1.3em;
+
+#portfolio {
+    background: #9099A2;
+}
+
+#contact {
+    background: #D5D5D5;
 }
 
 /* Responsive Mobile */
-
-@media only screen and (max-width: 380px) {
-  #menu {
-    position:fixed;
-    transition: top 0.2s;
-    height: 8vh;
-    text-align: center;
-    top:0;
-    left:0;
-    z-index: 70;
-    width: 100%;
-    padding: 0;
-    margin:0;
+@media only screen and (max-width: 600px) {
+  .navtxt {
+    display: none;
   }
-  h1 {
-    font-size: 4vh;
-    font-weight:lighter;
-    font-family: 'Helvetica', sans-serif;
-    color: #0e65f1;
-    margin:0;
-    padding:0;
-  }
-  h2 {
-    font-size: 3vh;
-    color: #f26726;
-    font-family: 'Helvetica', sans-serif;
-    font-weight: lighter;
-  }
-  p {
-    font-size: 2vh;
-    color: #1c3662;
-    width: 100%;
-    text-align: justify;
-    margin: 0 auto;
-  }
-  .description {
-    font-size: 2vh;
-    color: #1c3662;
-    width: 80%;
-    text-align: justify;
-    margin: 0 auto;
-    padding: 10%;
-    line-height: 1.6em;
-  }
-  a {
-    font-size: .6em;
-  }
-  .portfolio-div {
-    margin: 0 auto;
-  }
-  #portfolio-img {
-    max-width: 40%;
-    max-height: 30%;
-  }
-  .portfolio-txt {
-    padding-top: 50px;
-  }
-  #blurb {
-    line-height: 1.3em;
-    text-align: center;
-    font-size: 1.1em;
-  }
-  #skills {
-    line-height: 1.3em;
-    text-align: center;
-    font-size: 1em;
-  }
-}
 }

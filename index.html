@@ -2,80 +2,87 @@
 <head>
   <meta name="viewport" content="width=device-width">
   <title> Alex Shelmire </title>
-  <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-  <script type="text/javascript" src="js/jquery.fullPage.js"></script>
-  <script type="text/javascript" src="js/app.js"></script>
 </head>
 <body>
   <nav>
     <ul id="menu">
-      <li><a href="#home" title="Home"><i class="fa fa-home fa-fw" aria-hidden="true"></i> Home</a></li>
-      <li><a href="#about" title="About Alex"><i class="fa fa-male fa-fw" aria-hidden="true"></i> About</a></li>
-      <li><a href="#portfolio" title="Portfolio"><i class="fa fa-github fa-fw" aria-hidden="true"></i> Portfolio</a></li>
-      <li><a href="#contact" title="Contact Me"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i> Contact</a></li>
+      <li>
+        <a href="#home" title="Home">
+          <i class="fa fa-home fa-fw" aria-hidden="true"></i>
+          <div class="navtxt">
+            Home
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#about" title="About Alex">
+          <i class="fa fa-male fa-fw" aria-hidden="true"></i>
+          <div class="navtxt">
+             About
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#portfolio" title="Portfolio">
+          <i class="fa fa-github fa-fw" aria-hidden="true"></i>
+          <div class="navtxt">
+             Portfolio
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#contact" title="Contact Me">
+          <i class="fa fa-envelope fa-fw" aria-hidden="true"></i>
+          <div class="navtxt">
+             Contact
+          </div>
+        </a>
+      </li>
     </ul>
   </nav>
   <div class="container">
     <!-- page1 -->
       <div class="section" id="home">
-        <article class="divcenter">
-          <img class="img-circle" src="assets/alexfire.png">
-          <h1>Alex Shelmire</h1>
-          <h2>Full Stack Application Developer</h2>
-        </article>
+        <img class="img-circle" src="assets/alexfire.png">
+        <h1>Alex Shelmire</h1>
+        <h2>Full Stack Application Developer</h2>
       </div>
     <!-- page2 -->
       <div class="section" id="about">
-        <article class="about">
-          <br><br><h1>About</h1>
-          <p id="blurb">Alex is a full-stack application developer at the
-          Linguistic Data Consortium at the University of Pennsylvania. He is
-          from Philadelphia, graduated from the University of Southern
-          California, spins fire, and enjoys long walks through your codebase.
-          Alex is currently interested in developer positions or consulting on
-          Rails projects in the Greater Philadelphia area or remote work only.
-          Contact Alex by e-mail using the link in the contact section.</p>
-          <br><br><p id="skills">Ruby, Rails, Javascript, Git, Vim, Bourbon, JQuery, HTML, CSS, Node.js, Databases, MySQL, Postgres, SQlite, Heroku, Python, C++, Java, Linux, OSX, Windows, Minitest, Rspec, Bootstrap, Google, Stackoverflow, JIRA</p>
-        </article>
+          <br>
+          <br>
+          <h1>About</h1>
+          <div class="text">
+            Alex is a full-stack application developer at the
+            Linguistic Data Consortium at the University of Pennsylvania. He is
+            from Philadelphia, graduated from the University of Southern
+            California, spins fire, and enjoys long walks through your codebase.
+            Alex is currently interested in developer positions or consulting on
+            Rails projects in the Greater Philadelphia area or remote work only.
+            Contact Alex by e-mail using the link in the contact section.
+          </div>
+          <div class="text">
+            Ruby, Rails, Javascript, Git, Vim, Bourbon, JQuery, HTML, CSS, Node.js, Databases, MySQL, Postgres, SQlite, Heroku, Python, C++, Java, Linux, OSX, Windows, Minitest, Rspec, Bootstrap, Google, Stackoverflow, JIRA
+          </div>
       </div>
     <!-- page3 -->
       <div class="section" id="portfolio">
-        <article class="portfolio-txt">
           <h1>Portfolio</h1>
-          <div class="slide fp-auto-height">
-            <article class="portfolio-div">
-              <a href="https://webann.ldc.upenn.edu/" target="_blank" title="WebAnn"><img id="portfolio-img" src="assets/webann.png" title="WebAnn Image"></a>
-                <div class="description">WebAnn - This is a web-based tool for linguistic annotation (on text, audio, and video) with a great deal of flexibility in terms of the projects it can be used for. WebAnn also has workflow management tools, workforce management tools, training tools, communication tools, and an editor that allows non-programmers to create their own annotation tools. It was built with Ruby on Rails, makes heavy use of Javascript, was recently switched to the Bourbon.io suite from Bootstrap, and interacts with several different databases from unrelated projects. This is Alex's primary project at the LDC. Unfortunately, the github is private at the moment, but hopefully this will change soon. Some source code may be available upon request.</div>
-                <!-- <div class="divcenter"> -->
-                <!--   <i class="fa fa-github-square fa-lg" aria-hidden="true"></i> <a href="" target="_blank" title="title">Go to Github</a><br><br> -->
-                <!-- </div> -->
-            </article>
+          <a href="https://webann.ldc.upenn.edu/" target="_blank" title="WebAnn"><img id="portfolio-img" src="assets/webann.png" title="WebAnn Image"></a>
+          <div class="text">
+            WebAnn - This is a web-based tool for linguistic annotation (on text, audio, and video) with a great deal of flexibility in terms of the projects it can be used for. WebAnn also has workflow management tools, workforce management tools, training tools, communication tools, and an editor that allows non-programmers to create their own annotation tools. It was built with Ruby on Rails, makes heavy use of Javascript, was recently switched to the Bourbon.io suite from Bootstrap, and interacts with several different databases from unrelated projects. This is Alex's primary project at the LDC. Unfortunately, the github is private at the moment, but hopefully this will change soon. Some source code may be available upon request.
           </div>
-<!--         <div class="slide">
-          <article class="portfolio-div">
-            <a href="link" target="_blank" title="title"><img id="portfolio-img" src="assets/picture" title="title"></a>
-              <div class="description">Write things here</div>
-              <div class="divcenter">
-                <i class="fa fa-github-square fa-lg" aria-hidden="true"></i> <a href="https://github.com/shelmire/blah" target="_blank" title="title">Go to Github</a><br><br>
-              </div>
-          </article>
-        </div> -->
-        </article>
       </div>
     <!-- page4 -->
       <div class="section" id="contact">
         <div class="contact">
           <h1>Contact</h1><br>
-          <article class="contact">
-            <a href="mailto:shelmire@gmail.com" target="_blank" title="Email"><i class="fa fa-envelope fa-4x fa-fw" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/shelmire" target="_blank" title="LinkedIn"><i class="fa fa-linkedin-square fa-4x fa-fw" aria-hidden="true"></i></a>
-            <a href="assets/AlexShelmireResume-Clean.pdf" target="_blank" title="Resume"><i class="fa fa-file-text fa-4x fa-fw" aria-hidden="true"></i></a>
-            <a href="https://github.com/shelmire" target="_blank" title="Github"><i class="fa fa-github fa-4x fa-fw" aria-hidden="true"></i></a>
-          </article>
+          <a href="mailto:shelmire@gmail.com" target="_blank" title="Email"><i class="fa fa-envelope fa-4x fa-fw" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/shelmire" target="_blank" title="LinkedIn"><i class="fa fa-linkedin-square fa-4x fa-fw" aria-hidden="true"></i></a>
+          <a href="assets/AlexShelmireResume-Clean.pdf" target="_blank" title="Resume"><i class="fa fa-file-text fa-4x fa-fw" aria-hidden="true"></i></a>
+          <a href="https://github.com/shelmire" target="_blank" title="Github"><i class="fa fa-github fa-4x fa-fw" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
