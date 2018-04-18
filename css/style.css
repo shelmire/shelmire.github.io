@@ -17,6 +17,7 @@ body {
   height: 5vh;
   background: rgb(33, 33, 33);
   text-align: center;
+  align-items: center;
   width: 100%;
   margin: 0;
   padding: 1em;
@@ -137,11 +138,18 @@ p {
   .navtxt {
     display: none;
   }
+
   #menu {
     height: 5%;
   }
 
   .section {
     height: 100%;
+    padding-top: 4em;
+    padding-bottom: 2em;
+  }
+
+  #home {
+    padding-top: 8em;
   }
 }
