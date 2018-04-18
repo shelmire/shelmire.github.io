@@ -137,4 +137,11 @@ p {
   .navtxt {
     display: none;
   }
+  #menu {
+    height: 5%;
+  }
+
+  .section {
+    height: 100%;
+  }
 }
