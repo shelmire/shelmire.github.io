@@ -4,44 +4,50 @@
   <title> Alex Shelmire </title>
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+  <link rel="icon" type="image/png" href="assets/alexfire_icon.ico" />
 </head>
 <body>
-  <nav>
-    <ul id="menu">
-      <li>
-        <a href="#home" title="Home">
-          <i class="fa fa-home fa-fw" aria-hidden="true"></i>
-          <div class="navtxt">
-            Home
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="#about" title="About Alex">
-          <i class="fa fa-male fa-fw" aria-hidden="true"></i>
-          <div class="navtxt">
-             About
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="#portfolio" title="Portfolio">
-          <i class="fa fa-github fa-fw" aria-hidden="true"></i>
-          <div class="navtxt">
-             Portfolio
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="#contact" title="Contact Me">
-          <i class="fa fa-envelope fa-fw" aria-hidden="true"></i>
-          <div class="navtxt">
-             Contact
-          </div>
-        </a>
-      </li>
-    </ul>
-  </nav>
+  <div class="nav">
+    <div class="nav__left">
+      <img class="nav__icon" src="assets/alexfire.png" />
+    </div>
+    <div class="nav__right">
+      <ul id="menu">
+        <li>
+          <a href="#home" title="Home">
+            <i class="fa fa-home fa-fw" aria-hidden="true"></i>
+            <div class="navtxt">
+              Home
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#about" title="About Alex">
+            <i class="fa fa-male fa-fw" aria-hidden="true"></i>
+            <div class="navtxt">
+               About
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#portfolio" title="Portfolio">
+            <i class="fa fa-github fa-fw" aria-hidden="true"></i>
+            <div class="navtxt">
+               Portfolio
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#contact" title="Contact Me">
+            <i class="fa fa-envelope fa-fw" aria-hidden="true"></i>
+            <div class="navtxt">
+               Contact
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
   <div class="container">
     <!-- page1 -->
       <div class="section" id="home">
@@ -73,6 +79,10 @@
     <!-- page3 -->
       <div class="section" id="portfolio">
           <h1>Portfolio</h1>
+          <!-- <a href="https://lingoboingo.org/" target="_blank" title="Universal Annotator"><img id="portfolio-img" src="assets/webann.png" title="WebAnn Image"></a>
+          <div class="text">
+
+          </div> -->
           <a href="https://webann.ldc.upenn.edu/" target="_blank" title="WebAnn"><img id="portfolio-img" src="assets/webann.png" title="WebAnn Image"></a>
           <div class="text">
             WebAnn - This is a web-based tool for linguistic annotation (on text, audio, and video) with a great deal of flexibility in terms of the projects it can be used for. WebAnn also has workflow management tools, workforce management tools, training tools, communication tools, and an editor that allows non-programmers to create their own annotation tools. It was built with Ruby on Rails, makes heavy use of Javascript, was recently switched to the Bourbon.io suite from Bootstrap, and interacts with several different databases from unrelated projects. This is Alex's primary project at the LDC. Unfortunately, the github is private at the moment, but hopefully this will change soon. Some source code may be available upon request.
