@@ -17,6 +17,7 @@ body {
   height: 4em;
   background: rgb(33, 33, 33);
   text-align: center;
+  align-items: center;
   width: 100%;
   margin: 0 auto;
   padding: 1em;
@@ -148,6 +149,10 @@ p {
 
 #contact {
     background: #D5D5D5;
+}
+
+.fa-unblockli:before {
+  content: "\f08c";
 }
 
 /* Responsive Mobile */
