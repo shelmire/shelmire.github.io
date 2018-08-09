@@ -152,6 +152,14 @@ p {
 
 /* Responsive Mobile */
 @media only screen and (max-width: 600px) {
+  .nav {
+    padding: 0;
+  }
+
+  ul {
+    -webkit-padding-start: 0;
+  }
+
   .navtxt {
     display: none;
   }
