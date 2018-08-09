@@ -4,7 +4,7 @@
 
 html {
   font-size: 1em;
-  font-family: 'Georgia', sans-serif;
+  font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
   margin: 0;
 }
 
@@ -12,24 +12,44 @@ body {
   margin: 0;
 }
 
-#menu {
+.nav {
   position: fixed;
-  height: 5vh;
+  height: 4em;
   background: rgb(33, 33, 33);
   text-align: center;
   align-items: center;
   width: 100%;
-  margin: 0;
+  margin: 0 auto;
   padding: 1em;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav__icon {
+  border-radius: 50%;
+  max-width: 2em;
+  max-height: 2em;
+}
+
+.nav__left, .nav__right {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 #menu li {
   background: grey;
   border-radius: 3px;
-  display: block;
   display: flex;
   align-items: center;
   padding: 1em;
@@ -50,30 +70,32 @@ body {
   align-items: center;
 }
 
+.container {
+  padding-top: 4em;
+}
+
 .section {
-  padding-top: 10em;
-  padding-bottom: 10em;
-  height: 95vh;
+  padding-top: 5em;
+  padding-bottom: 5em;
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
 }
 
 h1 {
   font-size: 2.5em;
   font-weight: 500;
-  font-family: 'Georgia', sans-serif;
   color: rgb(33, 33, 33);
-  margin:0;
-  padding:0;
-  line-height:2em;
 }
 
 h2 {
   font-size: 1.7em;
-  color: #1c3662;
-  font-family: 'Georgia', sans-serif;
+  color: rgb(28, 54, 98);
   font-weight: lighter;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 a {
@@ -135,21 +157,15 @@ p {
 
 /* Responsive Mobile */
 @media only screen and (max-width: 600px) {
+  .nav {
+    padding: 0;
+  }
+
+  ul {
+    -webkit-padding-start: 0;
+  }
+
   .navtxt {
     display: none;
-  }
-
-  #menu {
-    height: 5%;
-  }
-
-  .section {
-    height: 100%;
-    padding-top: 4em;
-    padding-bottom: 2em;
-  }
-
-  #home {
-    padding-top: 8em;
   }
 }
