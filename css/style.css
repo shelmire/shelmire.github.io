@@ -4,7 +4,7 @@
 
 html {
   font-size: 1em;
-  font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   margin: 0;
 }
 
@@ -14,7 +14,7 @@ body {
 
 .nav {
   position: fixed;
-  height: 4em;
+  height: 2em;
   background: rgb(33, 33, 33);
   text-align: center;
   align-items: center;
@@ -47,27 +47,22 @@ body {
   align-items: center;
 }
 
-#menu li {
+#menu a {
+  text-decoration: none;
+}
+
+#menu a li {
+  align-items: center;
   background: grey;
   border-radius: 3px;
-  display: flex;
-  align-items: center;
-  padding: 1em;
-  margin: .5em;
-}
-
-#menu li a{
-  text-decoration: none;
   color: black;
   display: flex;
-  align-items: center;
+  margin: .5em;
+  padding: 1em;
 }
 
-#menu li a:hover{
-  text-decoration: none;
+#menu a:hover li {
   color: white;
-  display: flex;
-  align-items: center;
 }
 
 .container {
@@ -75,15 +70,16 @@ body {
 }
 
 .section {
-  padding-top: 3em;
-  padding-bottom: 3em;
-  width: 100%;
-  margin: 0;
-  text-align: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
+  font-weight: 300;
   justify-content: space-around;
-  align-items: center;
+  margin: 0;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  text-align: center;
+  width: 100%;
 }
 
 h1 {
@@ -139,15 +135,15 @@ a:hover {
 }
 
 #about {
-  background: #6D7993;
+  background: white;
 }
 
 #portfolio {
-    background: #9099A2;
+  background: #D5D5D5;
 }
 
 #contact {
-    background: #D5D5D5;
+    background: #9099A2;
 }
 
 .fa-unblockli:before {
