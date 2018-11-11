@@ -182,4 +182,7 @@ a:hover {
   .header__right * {
     padding-left: .6rem;
   }
+  .header__name {
+    display: none;
+  }
 }
