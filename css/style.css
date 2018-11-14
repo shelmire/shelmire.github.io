@@ -87,9 +87,7 @@ html {
 }
 
 .content-container--split {
-  margin: 0 auto;
   max-width: 80rem;
-  padding: 0 1.6rem;
   display: flex;
   justify-content: space-between;
 }
@@ -181,6 +179,9 @@ a:hover {
 @media only screen and (max-width: 600px) {
   .header__right * {
     padding-left: .6rem;
+  }
+  .content-container {
+    padding: 0 .8rem;
   }
   .header__name {
     display: none;
