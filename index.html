@@ -40,7 +40,7 @@
     <div class="section" id="home">
       <div class="content-container--split">
         <div class="content-container--split__child--even">
-          <div>
+          <div class="text">
             Alex is a full-stack application developer and data scientist at the
             Linguistic Data Consortium at the University of Pennsylvania.
             Alex is currently interested in developer positions with Rails, React,
@@ -66,7 +66,7 @@
           <h1>Skills</h1>
           <div class="text">
             <p>
-              Languages: Ruby, Javascript, Python, HTML, CSS, limited Java and C
+              Languages: Ruby, Javascript, Python, HTML, CSS
             </p>
             <p>
               Frameworks & Libraries: Rails, Node.js, React.js, JQuery,
@@ -93,17 +93,41 @@
       <div class="content-container">
         <div class="content-container__child">
           <h1>Portfolio</h1>
-          <a href="https://webann.ldc.upenn.edu/" target="_blank" title="WebAnn">
-            <img id="portfolio-img" src="assets/webann.png" title="WebAnn Image">
-          </a>
-          <div class="text">
-            WebAnn - This is a web-based tool for linguistic annotation (on text, audio, and video) with a great deal
-            of flexibility in terms of the projects it can be used for. WebAnn also has workflow management tools,
-            workforce management tools, training tools, communication tools, and an editor that allows non-programmers
-            to create their own annotation tools. It was built with Ruby on Rails, makes heavy use of Javascript, was
-            recently switched to the Bourbon.io suite from Bootstrap, and interacts with several different databases
-            from unrelated projects. This is Alex's primary project at the LDC. Unfortunately, the github is private.
-            Some source code may be available upon request.
+          <div class="tile-container">
+            <a class="tile-link" href="https://webann.ldc.upenn.edu/" target="_blank" title="WebAnn">
+              <div class="tile">
+                <h2>WebAnn</h2>
+                <img id="portfolio-img" src="assets/webann.png" title="WebAnn" />
+                <div class="text">
+                  Ruby on Rails application for professional linguistic annotation (on text, audio, images, and video)
+                  with a greatdeal of flexibility in terms of the projects it can be used for. WebAnn also has workflow
+                  management
+                  tools, workforce management tools, training tools, communication tools, and an editor that allows
+                  non-programmers to create their own annotation tools.
+                </div>
+              </div>
+            </a>
+
+            <a class="tile-link" href="https://namethatlanguage.com/ntl" target="_blank" title="Universal Annotator">
+              <div class="tile">
+                <h2>Universal Annotator</h2>
+                <img id="portfolio-img" src="assets/ntl_game.png" title="Name That Language" />
+                <div class="text">
+                  Ruby on Rails application for linguistic research (on text, audio, images, and video),
+                  with portals for gameification, community science, and professional annotation.
+                </div>
+              </div>
+            </a>
+            <a class="tile-link" href="https://bizzish-staging.herokuapp.com/" target="_blank" title="Bizzish">
+              <div class="tile">
+                <h2>Bizzish</h2>
+                <img id="portfolio-img" src="assets/bizzish.png" title="Bizzish" />
+                <div class=" text">
+                  React and Rails application for workflow management, issue tracking, and communication for small and
+                  medium sized organizations. Designed to be lightweight and easy to use.
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
