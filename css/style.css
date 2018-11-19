@@ -95,6 +95,10 @@ html {
 .content-container--split__child--even {
   width: 50%;
   margin: .8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .content-container__child {
@@ -227,6 +231,17 @@ a:hover {
   .tile {
     width: auto;
     height: auto;
+  }
+  .content-container--split {
+    flex-direction: column-reverse;
+  }
+  .content-container--split__child--even {
+    width: auto;
+    margin: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
   .content-container__child {
     width: auto;
