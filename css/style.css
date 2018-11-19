@@ -247,4 +247,13 @@ a:hover {
   .content-container__child {
     width: auto;
   }
+  .contact__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .contact__link {
+    padding: 1em;
+  }
 }
