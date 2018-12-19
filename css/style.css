@@ -135,7 +135,9 @@ html {
 .tile:hover {
   background-color: #9dcfff;
   border: 1px solid black;
-  transition: background-color .25s;
+  transition: all .15s ease-in;
+  -webkit-transition: all .15s ease-in;
+  transform: scale(1.05);
   cursor: pointer;
 }
 
