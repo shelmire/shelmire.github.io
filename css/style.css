@@ -164,6 +164,11 @@ body {
     padding-bottom: 20em;
 }
 
+#skills,
+#contact {
+    background: white;
+}
+
 .section {
     align-items: center;
     display: flex;
@@ -275,6 +280,10 @@ a:hover {
     .contact__link {
         padding: 1em;
     }
+    .techs {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media only screen and (max-width: 825px) {
@@ -287,5 +296,9 @@ a:hover {
     .tile {
         width: auto;
         max-width: 20rem;
+    }
+    .techs {
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
